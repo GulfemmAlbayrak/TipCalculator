@@ -1,17 +1,18 @@
 # Tip Calculator App
 
-### Bu uygulama, SwiftUI ve Combine kullanılarak geliştirilmiş bir örnek uygulamadır. Temel olarak bir hesap makinesi işlevi görmekte olup, kullanıcıların fatura miktarını girmelerine ve bahşiş oranını ayarlamalarına olanak tanır. Ayrıca, faturayı kaç kişiyle paylaşacaklarını belirlemelerine imkan veren bir bölüm içerir.
+### This app is a sample application developed using SwiftUI and Combine. It serves as a basic calculator allowing users to input a bill amount and adjust a tip percentage. Additionally, it includes a section where users can determine how many people will split the bill.
 
-## Özellikler
-- **Fatura Miktarı Girişi:** Kullanıcılar, fatura miktarını girerek başlayabilirler.
-- **Bahşiş Oranı Ayarı:** Bir slider aracılığıyla bahşiş oranını %0 ile %100 arasında ayarlayabilirler.
-- **Toplam Hesaplama:** Girilen fatura miktarına ve ayarlanan bahşiş oranına göre toplam tutarı otomatik olarak hesaplar.
-- **Kişi Başına Düşen Tutar Hesaplama:** Kullanıcılar, faturayı kaç kişiyle paylaşacaklarını girebilirler. Uygulama, her kişiye düşen payı otomatik olarak hesaplar.
-- **Hata Kontrolleri:** Kullanıcıların eksik veya geçersiz girişler yapmaları durumunda hata mesajları gösterir.
-## Teknolojiler
-- SwiftUI: Kullanıcı arayüzü oluşturmak için kullanılmıştır.
-- Combine: Veri akışını yönetmek ve UI bileşenleri arasında iletişim kurmak için kullanılmıştır.
-- XCTest: Unit testler yazmak için kullanılmıştır.
+## Features
+- **Bill Amount Input:**  Users can start by entering the bill amount.
+- **Tip Percentage Adjustment:** They can adjust the tip percentage using a slider ranging from 0% to 100%.
+- **Total Calculation:** Automatically computes the total amount based on the entered bill amount and tip percentage.
+- **Per Person Calculation:** Users can input the number of people with whom they will share the bill. The app calculates the amount each person owes.
+- **Error Handling:** Displays error messages when users make incomplete or invalid inputs.
+- 
+## Technologies
+- SwiftUI: Used for building the user interface.
+- Combine: Employed to manage data flow and communication between UI components.
+- XCTest: Utilized for writing unit tests.
 
  ## Media
 

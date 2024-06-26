@@ -1,6 +1,6 @@
 # Tip Calculator App
 
-### This app is a sample application developed using SwiftUI and Combine. It serves as a basic calculator allowing users to input a bill amount and adjust a tip percentage. Additionally, it includes a section where users can determine how many people will split the bill.
+### This app is a sample application developed using SwiftUI. It serves as a basic calculator allowing users to input a bill amount and adjust a tip percentage. Additionally, it includes a section where users can determine how many people will split the bill.
 
 ## Features
 - **Bill Amount Input:**  Users can start by entering the bill amount.
@@ -11,7 +11,6 @@
 - 
 ## Technologies
 - SwiftUI: Used for building the user interface.
-- Combine: Employed to manage data flow and communication between UI components.
 - XCTest: Utilized for writing unit tests.
 
  ## Media
